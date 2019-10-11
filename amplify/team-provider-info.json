@@ -15,5 +15,39 @@
                 "cognitoa7d29d9d": {}
             }
         }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "awsserverlessairline-dev-20191011090507-authRole",
+            "UnauthRoleArn": "arn:aws:iam::950838537916:role/awsserverlessairline-dev-20191011090507-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::950838537916:role/awsserverlessairline-dev-20191011090507-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "awsserverlessairline-dev-20191011090507-deployment",
+            "UnauthRoleName": "awsserverlessairline-dev-20191011090507-unauthRole",
+            "StackName": "awsserverlessairline-dev-20191011090507",
+            "StackId": "arn:aws:cloudformation:eu-west-1:950838537916:stack/awsserverlessairline-dev-20191011090507/38edd3a0-ec06-11e9-8e0e-02c03455965c"
+        },
+        "categories": {
+            "auth": {
+                "cognitoa7d29d9d": {}
+            }
+        }
+    },
+    "airline": {
+        "awscloudformation": {
+            "AuthRoleName": "awsserverlessairline-airline-20191011092959-authRole",
+            "UnauthRoleArn": "arn:aws:iam::950838537916:role/awsserverlessairline-airline-20191011092959-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::950838537916:role/awsserverlessairline-airline-20191011092959-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "awsserverlessairline-airline-20191011092959-deployment",
+            "UnauthRoleName": "awsserverlessairline-airline-20191011092959-unauthRole",
+            "StackName": "awsserverlessairline-airline-20191011092959",
+            "StackId": "arn:aws:cloudformation:eu-west-1:950838537916:stack/awsserverlessairline-airline-20191011092959/b1dad440-ec09-11e9-bcfc-0677a5c9174c"
+        },
+        "categories": {
+            "auth": {
+                "cognitoa7d29d9d": {}
+            }
+        }
     }
 }
